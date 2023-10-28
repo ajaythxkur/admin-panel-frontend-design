@@ -1,0 +1,147 @@
+@import './component/table.scss';
+@import './component/form.scss';
+@import './component/modal.scss';
+@import './layout/sidebar.scss';
+@import './component/pagination.scss';
+@import './Pages/pages.scss';
+@import './Pages/Orders.scss';
+@import './Pages/dashboard.scss';
+@import './Pages/auth.scss';
+
+@font-face {
+    font-family: Righteous;
+    src: url('../assets/fonts/Righteous/Righteous-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: PT;
+    src: url('../assets/fonts/PT/PTSansNarrow-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: PT;
+    src: url('../assets/fonts/PT/PTSansNarrow-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url('../assets/fonts/Orbitron/static/Orbitron-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url('../assets/fonts/Orbitron/static/Orbitron-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url('../assets/fonts/Orbitron/static/Orbitron-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url('../assets/fonts/Orbitron/static/Orbitron-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('../assets/fonts/Jost/static/Jost-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('../assets/fonts/Jost/static/Jost-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('../assets/fonts/Jost/static/Jost-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('../assets/fonts/Jost/static/Jost-Bold.ttf');
+    font-weight: 700;
+}
+
+:root {
+    --bg: #222736;
+    --black: #333;
+    --white: #FFF;
+    --blue: #626ed4;
+    --red: #ec4561;
+    --gray: #3c445a;
+    --side-bg: #2e3444;
+    --light-gray: #a2a5af;
+}
+
+.light {
+    --bg: #f1f1f1;
+    --black: #FFF;
+    --white: #333;
+    --blue: #626ed4;
+    --red: #ec4561;
+    --gray: #3c445a;
+    --side-bg: #ffffff;
+    --light-gray: #a2a5af;
+}
+
+#App {
+    font-family: Jost;
+    font-weight: 400;
+    background-color: var(--bg);
+    color: var(--white);
+    min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--bg);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--light-gray);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--light-gray);
+}
+
+.jodit-wysiwyg {
+    p {
+        color: var(--black);
+    }
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.form_err {
+    font-size: 14px;
+}
+
+.badge {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.bg-warning {
+    background-color: #ad8816 !important;
+}
